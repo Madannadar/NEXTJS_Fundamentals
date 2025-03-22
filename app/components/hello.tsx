@@ -5,7 +5,6 @@
 // the function in the clinet side like static text are still rendered on server side and button that require user interaction are rendered on the client side
 'use client';
  // now the page will be loaded on client side and not on server side
-import { log } from "node:console";
 
 function Hello() {
     console.log("Hello from the client side!");
