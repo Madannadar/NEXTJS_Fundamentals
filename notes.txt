@@ -1,0 +1,20 @@
+(root) means it will organise and help in creating folders without affecting the url
+eg: to call the about folder i do not want to call /roots/about
+i can simpley call /about.
+
+tecnique best for server side rendering
+static rendering strategy(ssg) not good for constent update required website 
+
+incremental static regneration(isr)
+-> time based re-validation 
+-> revalidate the request after some time 
+difference: first uses revalidate = 3600 all will be done
+second only some part will be revalidate
+
+server side rendering(ssr)
+-> revalidate when user needs like amazon here revalidation = 0
+when user wants the revalidation will be done
+
+partial pre rendering(ppr)
+-> hybrid aproach (statics and dynamic)
+-> allows to render staic while streming dynamic 

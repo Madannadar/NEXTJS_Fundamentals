@@ -28,6 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* <h1 className="text-3xl">hello world</h1>. */}
+        {/* now the h1 is parent and childrent is its used for navbar and many more  */}
         {children}
       </body>
     </html>
